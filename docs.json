@@ -9,7 +9,6 @@
   },
   "favicon": "/favicon.ico",
   "openGraph": {
-    "image": "https://static.slank.fun/images/docs-intro.jpg",
     "title": "bunt.fun Documentation",
     "description": "Launch. Trade. Earn. Repeat."
   },
