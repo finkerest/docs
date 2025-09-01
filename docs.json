@@ -1,127 +1,83 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "bunt.fun Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#F59E0B",
+    "light": "#FCD34D",
+    "dark": "#D97706"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
+  "openGraph": {
+    "image": "https://static.slank.fun/images/docs-intro.jpg",
+    "title": "bunt.fun Documentation",
+    "description": "Launch. Trade. Earn. Repeat."
+  },
   "navigation": {
     "tabs": [
       {
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Core Features",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "launching-a-coin",
+              "claiming-rewards",
+              "anti-sniper-protection"
             ]
           },
           {
-            "group": "Customization",
+            "group": "$BUNT Airdrop",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "bunt-airdrop/how-airdrop-works",
+              "bunt-airdrop/tokenomics"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Developer APIs",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "API Reference",
             "pages": [
               "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "https://static.slank.fun/images/docs-light-logo.png",
+    "dark": "https://static.slank.fun/images/docs-dark-logo.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:contact@bunt.fun"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Go to bunt.fun",
+      "href": "https://bunt.fun"
     }
   },
   "contextual": {
     "options": [
      "copy",
-     "view",
      "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
      "cursor",
      "vscode"
    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/buntfun",
+      "telegram": "https://t.me/buntfun",
+      "website": "https://bunt.fun"
     }
   }
 }
