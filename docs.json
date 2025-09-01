@@ -21,8 +21,7 @@
             "group": "Core Features",
             "pages": [
               "launching-a-coin",
-              "claiming-rewards",
-              "anti-sniper-protection"
+              "claiming-rewards"
             ]
           },
           {
@@ -30,6 +29,13 @@
             "pages": [
               "bunt-airdrop/how-airdrop-works",
               "bunt-airdrop/tokenomics"
+            ]
+          },
+          {
+            "group": "Platform",
+            "pages": [
+              "platform/the-bunt-flywheel",
+              "platform/crowdfunding-bunt"
             ]
           }
         ]
