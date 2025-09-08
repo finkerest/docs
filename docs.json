@@ -42,7 +42,9 @@
           {
             "group": "Buybacks",
             "pages": [
-              "buybacks/blunt"
+              "buybacks/index",
+              "buybacks/blunt",
+              "buybacks/worldwide"
             ]
           }
         ]
