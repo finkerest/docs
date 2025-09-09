@@ -43,8 +43,7 @@
             "group": "Buybacks",
             "pages": [
               "buybacks/index",
-              "buybacks/blunt",
-              "buybacks/worldwide"
+              "buybacks/blunt"
             ]
           }
         ]
