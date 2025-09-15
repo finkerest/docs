@@ -33,6 +33,12 @@
             ]
           },
           {
+            "group": "$usbc",
+            "pages": [
+              "usbc"
+            ]
+          },
+          {
             "group": "Platform",
             "pages": [
               "platform/the-bunt-flywheel",
