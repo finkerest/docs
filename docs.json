@@ -38,6 +38,13 @@
               "platform/the-bunt-flywheel",
               "platform/crowdfunding-bunt"
             ]
+          },
+          {
+            "group": "Buybacks",
+            "pages": [
+              "buybacks/index",
+              "buybacks/blunt"
+            ]
           }
         ]
       },
